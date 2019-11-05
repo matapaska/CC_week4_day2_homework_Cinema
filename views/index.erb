@@ -1,0 +1,8 @@
+<h2> Our films: </h2>
+
+<ul>
+<% for film in @films %>
+  <li><a href =./film_info.erb ><%= film.title %></a></li>
+<% end %>
+
+</ul>
